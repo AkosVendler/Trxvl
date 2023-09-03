@@ -1,0 +1,179 @@
+/* Created by Vendler Ákos on 24/03/2023. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --bg: #BBE1FA;
+    --fg:#1B262C;
+    --link: #0E4C73;
+    --border: linear-gradient(91.22deg, rgba(27, 38, 44, 0.4) 4.75%, rgba(27, 38, 44, 0.3) 103.11%);
+}
+
+body {
+    background-image: url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    font-family: Inter;
+    margin: 0;
+}
+
+.card {
+    position: absolute;
+    top: 10%;
+    width: 440px;
+    height: 700px;
+    background: linear-gradient(157.88deg, rgba(255, 255, 255, 0.4) -3.37%, rgba(217, 217, 217, 0.1) 102.95%);
+    box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(11.5px);
+    border-radius: 14px;
+    border: 3px solid #ffffff8f;
+}
+
+.container {
+    padding: 50px;
+}
+
+.title h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    color: var(--fg);
+}
+
+.description p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--fg);
+    margin-bottom: 50px;
+}
+
+.name {
+    box-sizing: border-box;
+    width: 331px;
+    height: 45px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #1b262c8c;
+    font-family: Inter;
+    font-size: 20px;
+    padding-left: 10px;   
+    color: var(--fg);
+    margin-bottom: 20px;
+}
+
+.password {
+    box-sizing: border-box;
+    width: 331px;
+    height: 45px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #1b262c8c;
+    font-family: Inter;
+    font-size: 20px;
+    padding-left: 10px;   
+    color: var(--fg);
+}
+.email{
+    box-sizing: border-box;
+    width: 331px;
+    height: 45px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #1b262c8c;
+    font-family: Inter;
+    font-size: 20px;
+    padding-left: 10px;   
+    color: var(--fg);
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label p{
+    font-weight: 500;
+    color: var(--fg);
+    margin: 0;
+    position: relative; 
+}
+
+.reg-option {
+    color: var(--fg);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.reg-option span {
+    text-decoration: none;
+    color: var(--link);
+    font-size: 15px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    padding: 0;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.remember p {
+    color: var(--fg);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.remember input {
+    cursor: pointer;
+    background-color: none;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.login-btn {
+    width: 331px;
+    height: 43px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: var(--fg);
+    font-family: Inter;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .0.25s ease-in-out;
+}
+
+.login-btn:hover{
+    transform: scale(1.05);
+}
+
+.copy-right {
+    float: right;
+    color: var(--fg);
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+
+.hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
