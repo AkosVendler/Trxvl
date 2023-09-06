@@ -93,6 +93,7 @@ body {
     padding: 8.856px 17.712px;
     box-sizing: border-box;
     height: 330vh;
+    margin-bottom: 150px;
 }
 
 .title h1 {
@@ -741,4 +742,175 @@ body {
     background: #141414;
     position: relative;
     z-index: 2;
+}
+
+@media only screen and (max-width: 1300px) {
+    .trip-section {
+        width: 1000.515px;
+        height: 400.277px;
+    }
+    .appdesc-container {
+        margin-top: 300px;
+        height: 650px;
+    }
+    .app-content {
+        gap: 50px;
+        padding: 0 100px;
+    }
+    .upper-content {
+        padding-bottom: 50px;
+    }
+    
+    .upper-content h1{
+        color: #FFF;
+        font-size: 43.137px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .upper-content p {
+        color: #FFF;
+        width: 700px;
+        font-size: 20.569px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .selectbtn {
+        color: #FFF;
+        font-size: 22.141px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: 'Helvetica Neue', sans-serif;
+        background: none;
+        border: none;
+    }
+    
+    .btn-active {
+        width: 100px;
+        height: 43px;
+        border-radius: 17.712px;
+        background: rgba(255, 255, 255, 0.40);
+        backdrop-filter: blur(17.712465286254883px);
+    }
+    
+    .left-content p {
+        color: #FFF;
+        font-size: 15.498px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .mobile-search-container {
+        width: 500px;
+        height: 64px;
+        border-radius: 17.712px;
+        background: rgba(255, 255, 255, 0.40);
+        backdrop-filter: blur(17.712465286254883px);
+        display: flex;
+        align-items: center;
+        padding: 9px 18px;
+        justify-content: space-between;
+    }
+    
+    .right {
+        display: flex;
+        gap: 35px;
+    }
+    
+    .mobile-searchbar {
+        display: flex;
+        align-items: center;
+    }
+    
+    .mobile-searchbar p {
+        color: #FFF;
+        font-size: 17.712px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.7;
+        padding-right: 10px;
+    }
+    
+    .mobile-searchbar input {
+        width: 150px;
+        height: 55px;
+        border: none;
+        background: none;
+        color: #FFF;
+        font-family: 'Helvetica Neue', sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;                                            
+    }
+    
+    .mobile-searchbar input::placeholder {
+        color: #FFF;
+        opacity: 0.7;
+    }
+    
+    .mobile-searchbar input:focus {
+        outline: none;
+    }
+    
+    .tel-search-btn {
+        width: 200px;
+        height: 55px;
+        background: #FFF;
+        color: #2659C3;
+        font-family: 'Helvetica Neue', sans-serif;
+        border: none;
+        border-radius: 36px;
+        font-size: 17.712px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 13px 35px; 
+        cursor: pointer;   
+    }
+    
+    .down-content {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .devider {
+        display: flex;
+        align-items: center;
+    }
+    
+    .devider p {
+        color: #FFF;
+        font-size: 17.712px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .devider span {
+        width: 1.107px;
+        height: 56.838px;
+        opacity: 0.2;
+        background: #FFF;
+    }
+    
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .leftapp-content img {
+        width: 130%;
+        position: relative;
+        top: 90px;
+        z-index: 1;
+    }
 }
